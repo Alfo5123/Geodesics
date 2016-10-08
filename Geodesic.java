@@ -39,8 +39,8 @@ public class Geodesic
 		{
 			float dist1 = distanceMap[ p1.getY() ][ p1.getX() ] ;
 			float dist2 = distanceMap[ p2.getY() ][ p2.getX() ] ;
-            return (int) ( dist1 - dist2 );
-        }
+            		return (int) ( dist1 - dist2 );
+        	}
 	};
 	
 	public void calcDistanceMap ()
